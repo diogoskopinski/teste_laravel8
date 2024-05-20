@@ -162,6 +162,8 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
+        Laravel\Ui\UiServiceProvider::class,
+
         /*
          * Package Service Providers...
          */

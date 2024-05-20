@@ -14,6 +14,7 @@ services:
       - ./000-default.conf:/etc/apache2/sites-available/000-default.conf
       - ./storage:/var/www/storage
       - ./bootstrap/cache:/var/www/bootstrap/cache
+      - ./.env:/var/www/.env
     depends_on:
       - db
     environment:
